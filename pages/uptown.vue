@@ -1,16 +1,17 @@
 <template>
-    <div class="bg-black px-[24px]">
-        <div class="relative mx-auto flex justify-center py-5 md:pt-[70px]">
-            <img class="w-24 h-auto md:w-48" src="~/assets/img/Biepi-logo-negativo.svg" alt="Biepi logo negativo">
-        </div>
-        <p ref="presents" class="font-regular text-white pb-5 text-center uppercase tracking-widest text-[16px]">presents</p>
-        <h1 ref="title" class="pt-10 text-white z-0 relative leading-[45px] uppercase tracking-widest font-regular text-center text-[48px] md:leading-[65px] md:text-[80px] md:font-extralight">the <span class="text-gold">origin</span> of coffee</h1>
-        <div ref="imageOrigin" class="pb-10 z-1 relative flex justify-center md:mt-3">
-            <img src="~/assets/img/origin.png" alt="Origin">
-        </div>
-
-        <div ref="video" class="relative pt-[56.25%] pb-0 px-0 md:h-screen">
-            <iframe class="absolute top-0 left-0 w-full h-full" src="https://player.vimeo.com/video/636330319?badge=0&amp;autoplay=1&loop=1&autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="BIEPI - Origin" data-ready="true"></iframe>
+    <div>
+        <div class="bg-black px-[24px]">
+            <div class="relative mx-auto flex justify-center py-5 md:pt-[70px]">
+                <img class="w-24 h-auto md:w-48" src="~/assets/img/Biepi-logo-negativo.svg" alt="Biepi logo negativo">
+            </div>
+            <p ref="presents" class="font-regular text-white pb-5 text-center uppercase tracking-widest text-[16px]">presents</p>
+            <div ref="title">
+                <h1 class="pt-10 text-white z-0 relative uppercase tracking-[0.2em] font-extralight text-center text-5xl md:leading-[65px] md:text-[80px] md:font-extralight">uptown</h1>
+                <p class="my-5 tracking-[0.16em] uppercase font-regular text-[24px] text-white text-center">elegance and tradition</p>
+            </div>
+            <div ref="imageOrigin" class="pb-10 z-1 relative flex justify-center md:mt-3">
+                <img src="~/assets/img/uptown.png" alt="Uptown">
+            </div>
         </div>
 
         <div class="container max-w-[1500px] md:grid md:grid-cols-2 md:mx-auto lg:px-6">
@@ -46,6 +47,7 @@
             </div>
         </div>
 
+        <!-- Footer -->
         <div class="w-[900px] flex flex-col justify-center max-w-full mx-auto my-5 lg:mb-32 xl:mb-40">
             <p class="font-bold text-[24px] text-gold leading-8 pb-7 md:leading-10 md:pt-10 md:pb-24 md:text-[48px]">Do you want more information?</p>
             <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
@@ -90,7 +92,6 @@ const title = ref();
 const imageOrigin = ref();
 const textBiepi = ref();
 const lastImage = ref();
-const video = ref();
 
 onMounted(() => {
 
@@ -160,24 +161,6 @@ onMounted(() => {
             scrub: true
         }
     });
-
-    gsap.fromTo(video.value,
-    {
-        opacity: 0,
-        scale: 0.5
-    },
-    {
-        opacity: 1,
-        scale: 1,
-        duration: 3,
-        scrollTrigger: {
-            trigger: video.value,
-            start: 'top 80%',
-            end: 'bottom 20%',
-            scrub: true
-        }
-    }
-    )
 })
 </script>
 

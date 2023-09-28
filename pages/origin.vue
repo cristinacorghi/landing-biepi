@@ -46,6 +46,7 @@
             </div>
         </div>
 
+        <!-- Footer -->
         <div class="w-[900px] flex flex-col justify-center max-w-full mx-auto my-5 lg:mb-32 xl:mb-40">
             <p class="font-bold text-[24px] text-gold leading-8 pb-7 md:leading-10 md:pt-10 md:pb-24 md:text-[48px]">Do you want more information?</p>
             <div class="grid grid-cols-1 gap-6 md:grid-cols-3">

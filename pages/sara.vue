@@ -4,7 +4,7 @@
             <img class="w-24 h-auto md:w-48" src="~/assets/img/Biepi-logo-negativo.svg" alt="Biepi logo negativo">
         </div>
         <p ref="presents" class="font-regular text-white pb-5 text-center uppercase tracking-widest text-[16px]">presents</p>
-        <h1 ref="title" class="pt-10 text-white z-0 relative leading-[45px] uppercase tracking-widest font-regular text-center text-[48px] md:leading-[65px] md:text-[80px] md:font-extralight">the <span class="text-gold">origin</span> of coffee</h1>
+        <h1 ref="title" class="pt-10 text-white z-0 relative leading-[45px] uppercase tracking-widest font-regular text-center text-[48px] md:leading-[65px] md:text-[80px] md:font-extralight">Sara</h1>
         <div ref="imageOrigin" class="pb-10 z-1 relative flex justify-center md:mt-3">
             <img src="~/assets/img/origin.png" alt="Origin">
         </div>
