@@ -9,9 +9,9 @@
             <img src="~/assets/img/origin.png" alt="Origin">
         </div>
 
-        <div ref="video" class="py-10">
-            <iframe class="w-full h-full" src="https://player.vimeo.com/video/636330319?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="BIEPI - Origin"></iframe>
-        </div>
+       <!-- <div class="h-screen">
+            <iframe src="https://player.vimeo.com/video/636330319?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="width:100%;height:100%;" title="BIEPI - Origin"></iframe>
+       </div> -->
 
         <div class="container max-w-[1500px] md:grid md:grid-cols-2 md:mx-auto lg:px-6">
             <div class="sticked container mx-auto py-10 p-4 gap-5 md:gap-x-10 md:order-2 md:my-15 lg:gap-x-16">
