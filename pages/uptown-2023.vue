@@ -7,10 +7,10 @@
             <p ref="presents" class="font-regular text-white pb-5 text-center uppercase tracking-widest text-[16px]">presents</p>
             <div ref="title">
                 <h1 class="pt-10 text-white z-0 relative uppercase tracking-[0.2em] font-extralight text-center text-5xl md:text-[80px] md:font-extralight lg:text-[174px]">uptown</h1>
-                <p class="my-5 tracking-[0.16em] uppercase font-regular text-[24px] text-white text-center  lg:text-[55px]">elegance and tradition</p>
+                <p class="my-5 tracking-[0.16em] uppercase font-regular text-[24px] text-white text-center lg:text-[55px]">elegance and tradition</p>
             </div>
             <div ref="imageUptown" class="z-1 relative flex justify-center md:mt-3">
-                <img src="~/assets/img/uptown.png" alt="Uptown">
+                <img class="w-full" src="~/assets/img/uptown.png" alt="Uptown">
             </div>
         </div>
 
