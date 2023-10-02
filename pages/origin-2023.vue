@@ -6,11 +6,7 @@
         <p ref="presents" class="font-regular text-white pb-5 text-center uppercase tracking-widest text-[16px]">presents</p>
         <h1 ref="title" class="pt-10 text-white z-0 relative leading-[45px] uppercase tracking-widest font-regular text-center text-[48px] md:leading-[65px] md:text-[80px] md:font-extralight">the <span class="text-gold">origin</span> of coffee</h1>
         <div ref="imageOrigin" class="pb-10 z-1 relative flex justify-center md:mt-3">
-            <img src="~/assets/img/origin.png" alt="Origin">
-        </div>
-
-        <div ref="video" class="relative pt-[56.25%] pb-0 px-0 md:h-screen">
-            <iframe class="absolute top-0 left-0 w-full h-full" src="https://player.vimeo.com/video/636330319?badge=0&amp;autoplay=1&loop=1&autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" title="BIEPI - Origin" data-ready="true"></iframe>
+            <img src="~/assets/img/origin.jpg" alt="Origin">
         </div>
 
         <div class="container max-w-[1500px] md:grid md:grid-cols-2 md:mx-auto lg:px-6">
@@ -91,7 +87,6 @@ const title = ref();
 const imageOrigin = ref();
 const textBiepi = ref();
 const lastImage = ref();
-const video = ref();
 
 onMounted(() => {
 
@@ -141,7 +136,8 @@ onMounted(() => {
             trigger: textBiepi.value,
             start: 'top 80%',
             end: 'bottom 20%',
-            scrub: true
+            scrub: true,
+            once: true
         }
     });
 
@@ -158,27 +154,10 @@ onMounted(() => {
             trigger: lastImage.value,
             start: 'top 80%',
             end: 'bottom 20%',
-            scrub: true
+            scrub: true,
+            once: true
         }
     });
-
-    gsap.fromTo(video.value,
-    {
-        opacity: 0,
-        scale: 0.5
-    },
-    {
-        opacity: 1,
-        scale: 1,
-        duration: 3,
-        scrollTrigger: {
-            trigger: video.value,
-            start: 'top 80%',
-            end: 'bottom 20%',
-            scrub: true
-        }
-    }
-    )
 })
 </script>
 
