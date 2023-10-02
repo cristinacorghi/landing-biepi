@@ -68,7 +68,7 @@
                 <div>
                     <p class="uppercase text-gold tracking-[.22em] font-regular text-[16px]">website</p>
                     <div class="mt-3 lg:text-[24px]">
-                        <a class="font-bold text-black underline" href="https://www.biepi.net">biepi.net</a>
+                        <a class="font-bold text-black underline" href="https://www.biepi.net/en" target="_blank">biepi.net</a>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@
 
         <div class="py-10 px-6 text-[#858585] text-center font-regular md:py-20">
             C.F. e P.Iva: 03022890168 - REA 0342443 . Registro imprese di Bergamo - Capitale sociale 100.000,00 euro i.v.<br>
-            Made by <a class="underline" href="https://www.apvd.it">APVD</a>
+            Made by <a class="underline" href="https://www.apvd.it" target="_blank">APVD</a>
         </div>
     </div>
 </template>
