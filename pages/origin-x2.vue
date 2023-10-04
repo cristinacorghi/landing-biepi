@@ -21,15 +21,11 @@
 
             <div class="md:order-1">
                 <div class="mb-10 lg:mb-24 last:mb-0">
-                    <img src="~/assets/img/manopola.jpg" alt="Manopola">
+                    <img src="~/assets/img/origin-lato.jpg" alt="Origin lato">
                 </div>
 
                 <div class="mb-10 lg:mb-24 last:mb-0">
-                    <img src="~/assets/img/vapor.jpg" alt="Vapor">
-                </div>
-
-                <div class="mb-10 lg:mb-24 last:mb-0">
-                    <img src="~/assets/img/retro.jpg" alt="Retro">
+                    <img src="~/assets/img/origin-schermo.jpg" alt="Origin schermo">
                 </div>
             </div>
         </div>
@@ -37,7 +33,7 @@
         <div class="py-10 flex justify-center md:pt-[50px] lg:pt-[100px]">
             <div style="transform: translate(0px);">
                 <div class="overflow-hidden">
-                    <img ref="lastImage" class="max-w-full rounded-[20px]" src="~/assets/img/frontale.jpg" alt="Frontale">
+                    <img ref="lastImage" class="max-w-full rounded-[20px]" src="~/assets/img/origin-ambientata.jpg" alt="Origin ambientata">
                 </div>
             </div>
         </div>
