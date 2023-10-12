@@ -7,21 +7,23 @@
         <div ref="title">
                 <h1 class="pt-10 text-white z-0 relative uppercase tracking-[0.2em] font-extralight text-center text-5xl md:text-[80px] md:font-extralight lg:text-[174px]">uptown pro</h1>
             </div>
-        <div ref="imageUptown" class="pb-10 z-1 relative m-auto md:mt-3">
+        <div ref="imageUptown" class="pb-10 z-1 relative m-auto md:mt-3 md:flex md:justify-center">
             <img src="~/assets/img/uptown.png" alt="Uptown">
         </div>
 
         <div class="container max-w-[1500px] md:grid md:grid-cols-2 md:mx-auto md:mt-[100px] lg:px-6">
             <div class="sticked container mx-auto py-10 p-4 gap-5 md:gap-x-10 md:order-2 md:my-15 lg:gap-x-16">
                 <div class="sticked mb-14 md:mb-auto md:sticky md:w-96 md:max-w-full md:mx-auto xl:w-[600px]">
-                    <p ref="textBiepi" class="mt-6 text-white font-regular lg:text-2xl">
-                        <span class="font-bold">Biepi Uptown PRO</span> is a modern espresso machine with a special twist, envisioned as a decor piece for café owners seeking innovation combined with uniqueness and beauty.<br><br>
+                    <p ref="textBiepi" class="mt-6 text-white font-regular lg:text-xl">
+                        <span class="font-bold">Biepi Uptown PRO</span> is a modern espresso machine with a special twist, envisioned as a decor piece for café owners seeking innovation combined with uniqueness and beauty.<br>
                         Designed by <a href="https://www.whynot-design.com/" class="underline" target="_blank">Whynot</a>, BIEPI Uptown is characterized by a sleek, matte black body and wood accessories.<br><br>
-                        It’s equipped with state of the art technology, including:
-                        <ul class="list-disc list-inside">
-                            <li>
-                                <span class="font-bold">Independent brew groups:</span> A new technology designed to guarantee the perfect temperature for each group, allowing you to extract any coffee blend. Set the temperature, press a button and enjoy the best of a cup of espresso!
-                            </li>
+                        It’s equipped with state of the art technology, including
+                        <span class="font-bold">independent brew groups:</span> a new technology designed to guarantee the perfect temperature for each group, allowing you to extract any coffee blend. Set the temperature, press a button and enjoy the best of a cup of espresso!
+                        <div class="my-5"></div>
+                        <p>Other features:</p>
+                        
+                        <ul class="list-disc list-outside">
+                            
                             <li class="font-bold">
                                 Shot timer
                             </li>

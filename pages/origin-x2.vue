@@ -30,17 +30,19 @@
             </div>
         </div>
 
-        <div class="py-10 flex justify-center md:pt-[50px] lg:pt-[100px]">
+        <div class="container max-w-[1500px] py-10 flex justify-center flex-col md:m-auto md:pt-[50px] lg:pt-[100px]">
+            <p class="font-bold text-[24px] text-gold leading-8 pb-7 md:leading-[50px] md:pt-10 md:pb-24 md:text-[48px]">Do you want more information?<br>
+                <span class="text-white text-[20px] md:text-[40px]"><a href="mailto:r.speziari@biepi.net" class="underline">Get in touch</a> with us to discover more about Origin</span>
+            </p>
             <div style="transform: translate(0px);">
                 <div class="overflow-hidden">
-                    <img ref="lastImage" class="max-w-full rounded-[20px]" src="~/assets/img/origin-ambientata.jpg" alt="Origin ambientata">
+                    <img ref="lastImage" class="rounded-[20px]" src="~/assets/img/origin-ambientata.jpg" alt="Origin ambientata">
                 </div>
             </div>
         </div>
 
         <!-- Footer -->
         <div class="w-[900px] flex flex-col justify-center max-w-full mx-auto my-5 lg:mb-32 xl:mb-40">
-            <p class="font-bold text-[24px] text-gold leading-8 pb-7 md:leading-[50px] md:pt-10 md:pb-24 md:text-[48px]">Do you want more information? Get in touch with us to discover more about Origin</p>
             <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
 
                 <div>
@@ -149,7 +151,7 @@ onMounted(() => {
         scrollTrigger: {
             trigger: lastImage.value,
             start: 'top 80%',
-            end: 'bottom 20%',
+            end: 'bottom 30%',
             scrub: true,
             once: true
         }
