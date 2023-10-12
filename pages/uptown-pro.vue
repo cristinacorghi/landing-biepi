@@ -15,8 +15,8 @@
             <div class="sticked container mx-auto py-10 p-4 gap-5 md:gap-x-10 md:order-2 md:my-15 lg:gap-x-16">
                 <div class="sticked mb-14 md:mb-auto md:sticky md:w-96 md:max-w-full md:mx-auto xl:w-[600px]">
                     <p ref="textBiepi" class="mt-6 text-white font-regular lg:text-2xl">
-                        Biepi Uptown PRO is a modern espresso machine with a special twist, envisioned as a decor piece for café owners seeking innovation combined with uniqueness and beauty.<br><br>
-                        Designed by Whynot, BIEPI Uptown is characterized by a sleek, matte black body and wood accessories.<br><br>
+                        <span class="font-bold">Biepi Uptown PRO</span> is a modern espresso machine with a special twist, envisioned as a decor piece for café owners seeking innovation combined with uniqueness and beauty.<br><br>
+                        Designed by <a href="https://www.whynot-design.com/" class="underline" target="_blank">Whynot</a>, BIEPI Uptown is characterized by a sleek, matte black body and wood accessories.<br><br>
                         It’s equipped with state of the art technology, including:
                         <ul class="list-disc list-inside">
                             <li>

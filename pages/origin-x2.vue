@@ -13,8 +13,8 @@
             <div class="sticked container mx-auto py-10 p-4 gap-5 md:gap-x-10 md:order-2 md:my-15 lg:gap-x-16">
                 <div class="sticked mb-14 md:mb-auto md:sticky md:w-96 md:max-w-full md:mx-auto xl:w-[600px]">
                     <p ref="textBiepi" class="mt-6 text-white font-regular lg:text-2xl">
-                        <span class="font-bold">BIEPI Origin</span> blends elements of the <span class="font-bold">industrial</span> and <span class="font-bold">design</span> worlds, representing the maximum expression of our new aesthetic language: a <span class="font-bold">mix of emotion</span> and <span class="font-bold">elegance</span>, natural materials alternating with black and stainless steel surfaces.<br><br>
-                        Designed by <a class="underline" href="http://www.whynot-design.com/wp/" rel="noopener" target="_blank">Whynot</a>, BIEPI Origin is a <span class="font-bold">specialty espresso machine</span> able to stir emotions and stand out while integrating harmoniously into any interior design.
+                        <span class="font-bold">Biepi Origin</span> blends elements of the industrial and design worlds, representing the maximum expression of our new aesthetic language: a mix of emotion and elegance, natural materials alternating with black and stainless steel surfaces.<br><br>
+                        Designed by <a href="https://www.whynot-design.com/" class="underline" target="_blank">Whynot</a>, Biepi Origin is a specialty espresso machine able to stir emotions and stand out while integrating harmoniously into any interior design.
                     </p>
                 </div>
             </div>
@@ -40,7 +40,7 @@
 
         <!-- Footer -->
         <div class="w-[900px] flex flex-col justify-center max-w-full mx-auto my-5 lg:mb-32 xl:mb-40">
-            <p class="font-bold text-[24px] text-gold leading-8 pb-7 md:leading-10 md:pt-10 md:pb-24 md:text-[48px]">Do you want more information?</p>
+            <p class="font-bold text-[24px] text-gold leading-8 pb-7 md:leading-[50px] md:pt-10 md:pb-24 md:text-[48px]">Do you want more information? Get in touch with us to discover more about Origin</p>
             <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
 
                 <div>

@@ -16,7 +16,7 @@
             <div class="sticked container mx-auto py-10 p-4 gap-5 md:gap-x-10 md:order-2 md:my-15 lg:gap-x-16">
                 <div class="sticked mb-14 md:mb-auto md:sticky md:w-96 md:max-w-full md:mx-auto xl:w-[600px]">
                     <p ref="textBiepi" class="mt-6 text-white font-regular lg:text-2xl">
-                        Suite is a semi-automatic espresso machine with a professional E61 lever brew group. Equipped with PID temperature control technology and shot timer, Suite is the perfect choice for the home Barista.<br><br>
+                        <span class="font-bold">Suite</span> is a semi-automatic espresso machine with a professional E61 lever brew group. Equipped with PID temperature control technology and shot timer, Suite is the perfect choice for the home Barista.<br><br>
                         With real wood panels and accessories in different finishes, Suite is in perfect harmony with the design of your home, making it an elegant addition to your kitchen.
                     </p>
                 </div>
